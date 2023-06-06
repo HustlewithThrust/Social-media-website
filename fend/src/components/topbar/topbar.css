@@ -1,0 +1,146 @@
+body{
+  background-color: rgb(8, 8, 8);
+  margin: 0;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header{
+  border: 1px solid rgb(177, 175, 175);
+  height: 60px;
+  display: flex;
+  margin: 0;
+  padding: 2px;
+  color: aliceblue;
+  width: 100%;
+  max-width: 0 auto;
+  background-color: #1a1b1b;
+  position: sticky;
+  align-items: center;
+  z-index: 999;
+}
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.LogoName{
+  margin-left: 10px;
+  color: yellow;
+  font-size: 35px;
+  height: 35px;
+  width: 252px;
+  font-weight: 700;
+}
+
+.HomeIcon{
+  font-size: 32px !important;
+  color: aliceblue;
+  margin-bottom: -5px;
+}
+
+.Home {
+  color: white;
+  font-size: 25px;
+  font-weight: 530;
+  margin-left: -10px;
+ 
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 20px;
+}
+.headerCenter{
+  margin-top: 8px;
+  margin-left: 9rem; 
+  margin-bottom: 10px;
+  width: 100%;
+  justify-items: center;
+  color: rgb(179, 174, 174);
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  -webkit-box-align: center;
+}
+.centertext{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.centertext:hover{
+  font-size: 21px;
+  color: yellow;
+  border-radius: 2px;
+}
+.HeaderItemCenter {
+  padding: 7px;
+  gap: 2rem;
+  margin-left: 20px;
+  border: 1px solid rgb(177, 175, 175);
+  border-radius: 5px;
+  border-color: aliceblue;
+  color: rgb(179, 174, 174);
+  text-decoration: none;
+  font-size: 20px;
+}
+.Home:Hover{
+  color: yellow;
+}
+.toggle_btn{
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: none;
+}
+.HomeIcon:hover{
+  color: yellow;
+  background-color: #3f4141d0;
+  border-radius: 5px;
+}
+.headerRight {
+  justify-items: end;
+  font-size: 15px;
+  color: aliceblue;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 100px;
+  -webkit-box-align: end;
+}
+
+.IconsRight{
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 30px !important;
+  color: aliceblue;
+  border: #fff solid 1px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.id{
+  margin-top: 15px;
+  width: 120px;
+  font-size: 22px;
+  text-align: center;
+
+}
+.profileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.IconsRight:hover, .profileImg:hover{
+  color: yellow;
+  scale: 1.1;
+  border-color: yellow;
+}
+.id:hover{
+  color: yellow;
+  scale: 1.05;
+  /* border: 1px solid yellow; */
+}

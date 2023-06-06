@@ -1,0 +1,61 @@
+.homeContainer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+/* Responsive */
+@media(max-width:992px){
+    .header{
+      height: 45px;
+      width: 100vh;
+      border: 1px solid rgb(177, 175, 175);
+      display: flex;
+      margin: 0;
+      padding: 2px;
+      color: aliceblue;
+      max-width: 0 auto;
+      background-color: #1a1b1b;
+      position: sticky;
+      align-items: center;
+      z-index: 999;
+    }
+    
+    .LogoName{
+      font-size: 25px;
+      display: flex; 
+      margin-left: 25px;
+      margin-top: 8px;
+      padding-left: 20px;
+    }
+    .headerCenter, .id{
+      display: none;
+    }
+  
+    .toggle_btn{
+      border: 2px solid yellow;
+      display: flex;
+      margin-bottom: -37px;
+      padding: 5px;
+      font-size: 30px !important;
+      color: yellow;
+      border-radius: 10px;
+      margin-right: 90%;
+    }
+    .Notification{
+      color: yellow;
+    }
+    .Chats{
+      color: yellow;
+      margin-left: 5px;
+    }
+    .sidebar, .rightBar{
+        display: none;
+        margin-left: 1000px;
+    }
+    .share{
+      float: center;
+    }
+    .homeContainer{
+      width: 62vh;
+    }
+  }
